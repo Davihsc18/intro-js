@@ -101,3 +101,26 @@ if (ehAdmin || ehModerador){
 } else{
     console.log("Acesso não permitido")
 }
+
+
+// Operador lógico ! - NOR (não)
+console.log("*** ! - NOT(não) ***");
+
+// Inverte o valor lógico
+console.log(!ehAdmin)
+
+const estaLogado = false;
+if(!estaLogado){
+    console.log("Faça login para continuar.")
+}
+
+const nome = "";
+if(!nome){
+    console.log("Preencha seu nome")
+}
+
+const aceitouTermos = false;
+// se não aceitouTermos, então...
+if(!aceitouTermos){
+    console.log("Para continuar você precisa aceitar os termos.");
+}
