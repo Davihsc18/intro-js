@@ -69,3 +69,21 @@ multiplicar(2, 5);
 
 const resultado = multiplicar(2, 5);
 console.log(resultado);
+
+//Conhecendo funções anônimas
+const saudacao = function () {
+    console.log("Olá Davi! Bom dia")
+}
+
+// Ativando função anônima
+// Utilizamos o nome da variavel para referenciar a função e ativala
+saudacao()
+
+
+// Conhecendo as Arrow Functions (Função da seta)
+
+const banana = () => {
+    console.log("Amo comer banana!");
+}
+
+banana();
