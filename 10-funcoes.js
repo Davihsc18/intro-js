@@ -67,7 +67,7 @@ function multiplicar(a, b) {
 
 multiplicar(2, 5);
 
-const resultado = multiplicar(2, 5);
+const resultado = multiplicar(3, 5);
 console.log(resultado);
 
 //Conhecendo funções anônimas
