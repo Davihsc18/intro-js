@@ -61,9 +61,9 @@ console.log(aluno);
 console.log("--- Objetos aninhados ---");
 
 const pessoa = {
-    nome: "Alex",
-    sobrenome: "Carrão",
-    idade: 18,
+    nome: "Davi",
+    sobrenome: "Henrique",
+    idade: 17,
 
     endereco: {
         bairro: "Carrão",
@@ -91,3 +91,47 @@ const cachorro = {
 }
 
 cachorro.latir()
+
+// Exemplos comuns
+const produto = {
+    tela: "Amoled 16pol",
+    armazenamento: "SSD 1TB",
+    Processador: "Ryzen 5500U",
+    memoriaRam: "16GB",
+    bateria: "",
+    preco: 3500,
+    estoque: 10,
+    disponivel: true,
+}
+
+const clima = {
+    cidade: "São Paulo",
+    temperatura: 24,
+    umidade: 70,
+    vento: 13,
+}
+
+console.log(`Temperatura: ${clima.temperatura.toFixed(2)} C°`)
+
+// Retornando apenas AS CHAVES do objeto trabalhado acima
+console.log(Object.keys(clima));
+
+// Retornando apenas os VALORES do objeto
+console.log(Object.values(clima));
+
+// Retornando pares de chave e valor
+console.log(Object.entries(clima))
+
+
+// Iterando sobre um objeto
+// Acessando chaves
+for (const key in produto) {
+    console.log(key)
+}
+
+// Acessando valores
+for (const key in produto) {
+    const element = produto[banana];
+
+    console.log(element);
+}
